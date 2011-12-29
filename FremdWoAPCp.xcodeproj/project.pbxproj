@@ -15,6 +15,7 @@
 		04B2545B12CB87BC005282AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B2545A12CB87BC005282AC /* Icon.png */; };
 		04C22A7C12CCA65800741EBA /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C22A7B12CCA65800741EBA /* Word.m */; };
 		04C22C0212CCCB7E00741EBA /* RelatedWordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C22C0112CCCB7E00741EBA /* RelatedWordsTableViewController.m */; };
+		04F5EBCD14ACB3DC000B44FF /* DefinitionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EBCB14ACB3DC000B44FF /* DefinitionTableViewController.m */; };
 		1D3623260D0F684500981E51 /* DoxaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DoxaAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -39,6 +40,8 @@
 		04C22A7B12CCA65800741EBA /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		04C22C0012CCCB7E00741EBA /* RelatedWordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelatedWordsTableViewController.h; sourceTree = "<group>"; };
 		04C22C0112CCCB7E00741EBA /* RelatedWordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelatedWordsTableViewController.m; sourceTree = "<group>"; };
+		04F5EBCA14ACB3DC000B44FF /* DefinitionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionTableViewController.h; sourceTree = "<group>"; };
+		04F5EBCB14ACB3DC000B44FF /* DefinitionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefinitionTableViewController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* DoxaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoxaAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* DoxaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoxaAppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				04B253CF12CB79B0005282AC /* DefinitionViewController.m */,
 				04C22C0012CCCB7E00741EBA /* RelatedWordsTableViewController.h */,
 				04C22C0112CCCB7E00741EBA /* RelatedWordsTableViewController.m */,
+				04F5EBCA14ACB3DC000B44FF /* DefinitionTableViewController.h */,
+				04F5EBCB14ACB3DC000B44FF /* DefinitionTableViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				04B253D112CB79B0005282AC /* DefinitionViewController.m in Sources */,
 				04C22A7C12CCA65800741EBA /* Word.m in Sources */,
 				04C22C0212CCCB7E00741EBA /* RelatedWordsTableViewController.m in Sources */,
+				04F5EBCD14ACB3DC000B44FF /* DefinitionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

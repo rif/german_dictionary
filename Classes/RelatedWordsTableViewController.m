@@ -6,6 +6,7 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
+#import "DefinitionTableViewController.h"
 #import "RelatedWordsTableViewController.h"
 #import "DefinitionViewController.h"
 #import "DoxaAppDelegate.h"
@@ -156,7 +157,8 @@
 			[((DoxaAppDelegate *)[UIApplication sharedApplication].delegate).navigationController pushViewController:dvc animated:YES];
 			
 			dvc.title = w.word;
-			dvc.definitionView.text = w.definition;
+			dvc.definitionTableViewController.definition = w.definition;
+            [(UITableView*)dvc.definitionTableViewController.view reloadData];
 			dvc.relatedWordsTableViewController.word = w;
 			[(UITableView*)dvc.relatedWordsTableViewController.view reloadData];
 			[dvc release];
