@@ -11,6 +11,7 @@
 #import "DefinitionViewController.h"
 #import "Word.h"
 #import "RelatedWordsTableViewController.h"
+#import "DefinitionTableViewController.h"
 #import <sqlite3.h>
 
 @implementation RootViewController
@@ -279,7 +280,8 @@ static NSMutableDictionary *sections = nil;
     }
 	
 	self.definitionViewController.title = word.word;
-	self.definitionViewController.definitionView.text = word.definition;
+	self.definitionViewController.definitionTableViewController.definition = word.definition;
+    [(UITableView*)self.definitionViewController.definitionTableViewController.view reloadData];
 	self.definitionViewController.relatedWordsTableViewController.word = word;
 	[(UITableView*)self.definitionViewController.relatedWordsTableViewController.view reloadData];
 

@@ -13,7 +13,7 @@
 
 @implementation DefinitionViewController
 
-@synthesize definitionView, relatedWordsTableViewController;
+@synthesize definitionTableViewController, relatedWordsTableViewController;
 
 
 
@@ -62,7 +62,7 @@
 
 
 - (void)dealloc {
-	[definitionView release];
+	[definitionTableViewController release];
 	[relatedWordsTableViewController release];
     [super dealloc];
 }

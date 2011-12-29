@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 @class RelatedWordsTableViewController;
+@class DefinitionTableViewController;
 
 @interface DefinitionViewController : UIViewController {
-	UITextView *definitionView;
+	DefinitionTableViewController *definitionTableViewController;
 	RelatedWordsTableViewController *relatedWordsTableViewController;
 }
 
-@property(nonatomic, retain) IBOutlet UITextView *definitionView;
+@property(nonatomic, retain) IBOutlet DefinitionTableViewController *definitionTableViewController;
 @property(nonatomic, retain) IBOutlet RelatedWordsTableViewController *relatedWordsTableViewController;
 
 @end
